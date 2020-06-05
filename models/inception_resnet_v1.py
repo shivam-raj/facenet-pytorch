@@ -312,8 +312,8 @@ def load_weights(mdl, name):
         ValueError: If 'pretrained' not equal to 'vggface2' or 'casia-webface'.
     """
     if name == 'vggface2':
-        features_path = 'https://drive.google.com/uc?export=download&id=1cWLH_hPns8kSfMz9kKl9PsG5aNV2VSMn'
-        logits_path = 'https://drive.google.com/uc?export=download&id=1mAie3nzZeno9UIzFXvmVZrDG3kwML46X'
+        features_path = 'https://drive.google.com/uc?export=download&id=1GkW8G1lcyE0GBcimvBLFLWsBKFJg8bs-'
+        logits_path = 'https://drive.google.com/uc?export=download&id=1MoXubXzHrJVKfpmuyDLu6FtDKuFhhaSp'
     elif name == 'casia-webface':
         features_path = 'https://drive.google.com/uc?export=download&id=1LSHHee_IQj5W3vjBcRyVaALv4py1XaGy'
         logits_path = 'https://drive.google.com/uc?export=download&id=1QrhPgn1bGlDxAil2uc07ctunCQoDnCzT'
